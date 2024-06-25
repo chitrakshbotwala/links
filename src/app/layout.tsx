@@ -12,10 +12,10 @@ type RootLayoutProps = {
 }
 
 const SITE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://links.honghong.me'
+  ? 'https://links.Chitraksh.me'
   : 'http://localhost:3000'
 const SITE_DESCRIPTION = 'Connect with me on all my social media profiles through Links. Discover new content and stay updated with my latest posts!'
-const SITE_TITLE = 'Links | Hong - A Full Stack Developer'
+const SITE_TITLE = 'Links | Chitraksh - A Full Stack Developer'
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
@@ -34,9 +34,9 @@ export const metadata: Metadata = {
   },
   manifest: '/favicon/site.webmanifest',
   twitter: {
-    title: 'Hong',
+    title: 'Chitraksh',
     card: 'summary_large_image',
-    site: '@tszhong0411',
+    site: '@chitrakshbotwala',
     creator: '@tszhong0411',
     images: [
       {
@@ -56,7 +56,7 @@ export const metadata: Metadata = {
     'chitraksh links',
     'links'
   ],
-  creator: 'tszhong0411',
+  creator: 'chitrakshbotwala',
   openGraph: {
     url: SITE_URL,
     type: 'website',
