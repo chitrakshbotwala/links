@@ -15,11 +15,6 @@ import PrimaryLinks from './primary-links'
 
 const links = [
   {
-    icon: <FiBook className='text-zinc-300' />,
-    title: 'Blog',
-    url: 'https://honghong.me/blog'
-  },
-  {
     icon: <SiYoutube className='text-zinc-300' />,
     title: 'YouTube',
     url: 'https://www.youtube.com/@Chitrakshbotwala'
