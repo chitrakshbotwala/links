@@ -5,7 +5,7 @@ const PrimaryLinks = () => {
     <div className='flex items-center justify-center gap-6'>
       <SparkleButton className='mb-6'>
         <a
-          href='chitraksh.vercel.app'
+          href='https://chitraksh.vercel.app'
           target='_blank'
           className={SparkleButton.ClassName}
           rel='noopener, noreferrer'
